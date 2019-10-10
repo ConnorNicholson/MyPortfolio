@@ -1,1 +1,257 @@
+/* NAVBAR */
 
+.navbar {
+    background-color: rgba(21, 31, 33, 0.459);
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav_link {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* FOOTER */
+
+.page_footer {
+    height: 10vh;
+    background-color: rgb(100, 100, 100);
+    border-top: solid 2px black;
+    color: #fff;
+}
+
+.footer_container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer_social_media_links {
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 0 0;
+}
+
+.footer_info {
+    width: 300px;
+}
+
+.footer_copyright {
+    font-size: 20px;
+}
+
+.footer_last_updated {
+    margin: 0;
+}
+
+.fa-linkedin-square {
+    padding: 10px;
+}
+
+.fa-github {
+    padding: 10px;
+}
+
+.footer_email {
+    text-align: right;
+    margin: 25px 0 0;
+}
+
+
+/* ABOUT ME */
+
+/* Header */
+
+.about_me_header {
+    height: 100vh;
+    background: rgb(19,19,45);
+    background: linear-gradient(90deg, rgba(19,19,45,1) 0%, rgba(99,99,189,1) 37%, rgba(254,254,254,1) 100%);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_me_container {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.about_me_name {
+    font-size: 70px;
+}
+
+.about_me_text {
+    font-size: 30px;
+}
+
+.about_me_link {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+/* Main */
+
+.about_me_main {
+    height: 90vh;
+    background: rgb(19,19,45);
+    background: linear-gradient(90deg, rgba(19,19,45,1) 0%, rgba(99,99,189,1) 37%, rgba(254,254,254,1) 100%);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    height: 75vh;
+    background-color: #fff;
+    border: solid 5px rgb(100, 100, 100);
+}
+
+.box_title {
+    font-size: 35px;
+    padding: 15px 0 5px;
+    border-bottom: solid 1px #000;
+    width: 300px;
+    margin: auto;
+}
+
+.box_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 2px rgb(100, 100, 100);
+    margin-top: 25px;
+}
+
+.box_info {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.portfolio_link {
+    font-weight: bold;
+}
+
+
+
+/* PORTFOLIO */
+
+.portfolio_header {
+    height: 130vh;
+    background: rgb(33,33,46);
+    background: linear-gradient(90deg, rgba(33,33,46,1) 0%, rgba(150,150,158,1) 41%, rgba(218,218,218,1) 100%);
+}
+
+.portfolio_flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    justify-content: center;
+}
+
+.portfolio_box {
+    background-color: #fff;
+    width: 25%;
+    height: 250px;
+    margin: 10px;
+    border: solid 2px #000;
+}
+
+
+
+/* CONTACT */
+
+.contact_header {
+    height: 100vh;
+    background: rgb(45,19,19);
+    background: linear-gradient(90deg, rgba(45,19,19,1) 0%, rgba(189,99,99,1) 48%, rgba(254,254,254,1) 100%);
+}
+
+.contact_form_title {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    padding: 150px 0 50px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.contact_form {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+.form_text_name {
+    margin: 50px;
+    color: white;
+}
+
+.contact_form_name {
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.form_text_email {
+    color: white;
+}
+
+.contact_form_email {
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.form_text_message {
+    color: white;
+}
+
+.contact_form_message {
+    width: 500px;    
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.contact_form_submit {
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+}
