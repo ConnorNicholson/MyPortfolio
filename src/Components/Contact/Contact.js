@@ -8,8 +8,7 @@ export default function Contact() {
         <div>
             <section className="contact_header">
                 <p className="contact_form_title">Contact Form</p>
-                <form className="contact_form" name="contact_form" method="POST" data-netlify="true">
-                    <input type="hidden" name="form-name" value="contact" />
+                <form className="contact_form" name="contact_form" method="POST">
                     <p>
                         <label>
                             <span className="form_text_name">Name:</span><br />
