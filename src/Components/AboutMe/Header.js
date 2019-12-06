@@ -10,7 +10,7 @@ export default function Header() {
                 </div>
                 <div className="about_me_link">
                     <p>Explore below</p>
-                    <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                    <a className="down_arrow_link" href="#info-section"><i className="fa fa-chevron-down" aria-hidden="true"></i></a>
                 </div>
             </header>
         </div>

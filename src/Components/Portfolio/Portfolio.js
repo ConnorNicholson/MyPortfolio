@@ -39,8 +39,8 @@ export default function Portfolio() {
                         </a>
                     </div>
                 </div>
+                <Footer />
             </section>
-            <Footer />
         </div>
     );
 };
