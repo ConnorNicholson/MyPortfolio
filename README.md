@@ -14,4 +14,4 @@ This project contains the following:
 If you would like to use this app locally, use `npm install` to install all needed dependencies. Then, run the command `npm start` in your console in order to start up the application.
 
 ## Additional Notes
-This project is subject to change at any time.
+This project is subject to change at any time, including the projects listed on the Portfolio page.
