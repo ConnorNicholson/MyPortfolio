@@ -1,6 +1,11 @@
 # My Portfolio
 This portfolio was made using React.js. It contains 3 pages: About Me, Portfolio, and Contact Me. The Portfolio page contains links to some of my other projects on GitHub.
 
+## Live Access
+See my portfolio live on Heroku!
+
+https://cjn-portfolio.herokuapp.com/
+
 ## Portfolio Contents
 This project contains the following:
  1. public folder (contains index.html, manifest.json, and robots.txt)
