@@ -59,8 +59,9 @@
     margin: 0;
 }
 
-.fa-linkedin-square {
+/* .fa-linkedin-square {
     padding: 10px;
+    margin: 10px;
 }
 
 .fa-linkedin-square:before {
@@ -69,11 +70,12 @@
 
 .fa-github {
     padding: 10px;
+    margin: 10px;
 }
 
-.fa-github:before {
-    color: #fff;
-}
+.fa-github:hover {
+    font-size: 30px;
+} */
 
 .footer_email {
     text-align: right;
@@ -230,12 +232,12 @@
 }
 
 .portfolio_box {
-    background-color: #fff;
+    background-color: rgb(19, 19, 45);
     width: 25%;
     height: 250px;
     margin: 10px;
-    border: solid 2px #000;
     text-align: center;
+    justify-content: center;
 }
 
 .project_link {
@@ -247,32 +249,62 @@
     text-decoration: none;
 }
 
-.javascript_project {
-    background-color: yellow;
-    height: 100%;
-    padding-top: 65px;
-    font-weight: bold;
+.project_logo {
+    height: 246px;
+    cursor: default;
+}
+
+.project_logo:hover {
+    transform: scale(1.03, 1.03);
 }
 
 .nodeJS_project {
-    background-color: limegreen;
-    height: 100%;
-    padding-top: 65px;
-    font-weight: bold;
+    background-color: rgb(19, 19, 45);
+}
+
+.react_logo {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+
+.react_logo:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
 }
 
 .react_project {
-    background-color: lightblue;
-    height: 100%;
-    padding-top: 65px;
-    font-weight: bold;
+    background-color: rgb(19, 19, 45);
+}
+
+/* Using keyframes to change CSS styles gradually */
+@keyframes bounce {
+    /* 0% is */
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.mysql_logo {
+    height: 246px;
+}
+
+.mysql_logo:hover {
+    animation: bounce 1s;
 }
 
 .mysql_project {
-    background-color: #0190FE;
-    height: 100%;
-    padding-top: 65px;
-    font-weight: bold;
+    background-color: rgb(19, 19, 45);
 }
 
 .language_icon {
