@@ -29,7 +29,7 @@ export default function Portfolio() {
                         </a>
                     </div>
                     <div className="portfolio_box">
-                        <a className="project_link">
+                        <a className="project_link" href="https://cjn-portfolio.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <div className="react_project">
                                 <img className="project_logo react_logo" src="https://res.cloudinary.com/connorn/image/upload/v1575901647/Portfolio%20Images/react_logo_mzolsv.png" alt="project_logo" />
                                 {/* <p className="language_icon">React</p>

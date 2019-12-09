@@ -2,7 +2,6 @@
 
 .navbar {
     background-color: rgba(21, 31, 33, 0.459);
-    /* font-family: 'Alegreya Sans', sans-serif; */
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
@@ -59,28 +58,21 @@
     margin: 0;
 }
 
-/* .fa-linkedin-square {
-    padding: 10px;
-    margin: 10px;
-}
-
-.fa-linkedin-square:before {
-    color: #fff;
-}
-
-.fa-github {
-    padding: 10px;
-    margin: 10px;
-}
-
-.fa-github:hover {
-    font-size: 30px;
-} */
-
 .footer_email {
     text-align: right;
     margin: 25px 0 0;
     padding-left: 115px;
+}
+
+.social_media_link {
+    color: #fff;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.social_media_link:hover {
+    color: #fff;
+    padding: 15px;
 }
 
 
@@ -305,6 +297,7 @@
 
 .mysql_project {
     background-color: rgb(19, 19, 45);
+    cursor: default;
 }
 
 .language_icon {
@@ -333,6 +326,7 @@
     padding: 150px 0 50px;
     font-size: 35px;
     text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .contact_form {
@@ -341,6 +335,7 @@
     text-align: center;
     color: #000;
     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .form_text_name {
