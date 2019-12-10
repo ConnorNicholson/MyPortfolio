@@ -269,8 +269,7 @@
 }
 
 /* Using keyframes to change CSS styles gradually */
-@keyframes bounce {
-    /* 0% is */
+/* @keyframes bounce {
 	0%, 20%, 60%, 100% {
 		-webkit-transform: translateY(0);
 		transform: translateY(0);
@@ -285,9 +284,9 @@
 		-webkit-transform: translateY(-10px);
 		transform: translateY(-10px);
 	}
-}
+} */
 
-.mysql_logo {
+/* .mysql_logo {
     height: 246px;
 }
 
@@ -298,14 +297,15 @@
 .mysql_project {
     background-color: rgb(19, 19, 45);
     cursor: default;
-}
+} */
 
 .language_icon {
     font-size: 50px;
 }
 
-.project_name {
-    font-size: 30px;
+.project_text {
+    color: #fff;
+    visibility: hidden;
 }
 
 
